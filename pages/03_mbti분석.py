@@ -18,7 +18,7 @@ st.set_page_config(
 # =====================================
 # 2. CSV 데이터 불러오기
 # =====================================
-DATA_FILE = Path(__file__).parent / "countriesMBTI_16types.csv"
+DATA_FILE = Path(__file__).parent / "countriesMBTI_16types (1).csv"
 
 
 @st.cache_data

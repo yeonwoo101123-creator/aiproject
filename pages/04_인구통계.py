@@ -596,10 +596,11 @@ col1, col2, col3 = st.columns(3)
 regions = df["행정구역"].dropna().unique().tolist()
 
 with col1:
-    selected_region = st.selectbox(
-        "📍 행정구역",
-        regions
-    )
+ selected_region = st.selectbox(
+    "📍 행정구역",
+    regions,
+    key="population_region_select"
+)
 
 with col2:
     selected_gender = st.selectbox(

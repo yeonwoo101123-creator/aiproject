@@ -34,7 +34,7 @@ st.divider()
 # CSV 파일은 상위 폴더에 위치
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-CSV_PATH = BASE_DIR / "Iris(1).csv"
+CSV_PATH = BASE_DIR / "Iris.csv"
 
 if not CSV_PATH.exists():
     st.error("CSV 파일을 찾을 수 없습니다.")
